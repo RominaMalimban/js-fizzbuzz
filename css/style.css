@@ -6,11 +6,13 @@
 
 body{
     font-family: sans-serif;
+    background-color: #CDC9C9;
 }
 
 h1{
     text-align: center;
     margin: 20px 0;
+    font-size: 40px;
 }
 
 .container{
