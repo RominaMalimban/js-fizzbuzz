@@ -2,12 +2,11 @@
 Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”. */
 
 
-
+let contenitore = document.querySelector(".container");
 
 // devo creare un ciclo for per numeri da 1 a 50
 for(let i = 1; i <= 50; i++){
     
-    let contenitore = document.querySelector(".container");
     let element = document.createElement("div");
     element.classList.add("box");
     contenitore.append(element);
@@ -25,9 +24,6 @@ for(let i = 1; i <= 50; i++){
     }else{
         element.append(i);
     }
-    
-
-    
 };
 
  
