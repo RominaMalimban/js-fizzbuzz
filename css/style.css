@@ -8,9 +8,21 @@
 
 .box{
     text-align: center;
-    line-height: 70px;
-    height: 70px;
-    background-color: coral;
+    line-height: 80px;
+    height: 80px;
+    background-color: #CDC673;
     margin: 5px;
     width: calc(100% / 7 - 10px);
+}
+
+.fizz{
+    background-color:#F5DEB3;
+}
+
+.buzz{
+    background-color: #CDBA96;
+}
+
+.fizzBuzz{
+    background-color:  	#8B7355;
 }

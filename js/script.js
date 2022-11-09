@@ -15,12 +15,13 @@ for(let i = 1; i <= 50; i++){
     // creo le condizioni:
     if(i % 3 === 0 && i % 5 === 0){
         element.append("FizzBuzz");
+        element.classList.add("fizzBuzz")
     }else if(i % 3 === 0){
-        // let fizz = "Fizz";
         element.append("Fizz");
+        element.classList.add("fizz");
     }else if(i % 5 === 0 ){
-        // let buzz = "Buzz";
         element.append("Buzz");
+        element.classList.add("buzz");
     }else{
         element.append(i);
     }
